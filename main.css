@@ -16,18 +16,21 @@ a{
 img{
    max-width: 100%;
 }
-
-.wrapper {
-  background: linear-gradient(180deg, rgb(11, 11, 11) 19%, rgb(55, 167, 28));
-    min-height: 100vh; /* Занимает всю высоту viewport (видимой области) */
-    background-repeat: no-repeat; /* Предотвращает повторение, если контент короче */
-    background-size: cover;
-    margin: 0;
-}
-
 .container{
     width: 1450px;
     height: 500px;
     margin: 0 auto;
 }
+
+
+.wrapper {
+     min-height: 100vh; /* Занимает всю высоту viewport (видимой области) */
+    background-repeat: no-repeat; /* Предотвращает повторение, если контент короче */
+    background-size: cover;
+    margin: 0;
+  background: linear-gradient(180deg, rgb(11, 11, 11) 19%, rgb(55, 167, 28))
+}
+
+
+
 
