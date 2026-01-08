@@ -38,10 +38,13 @@ img{
     margin: 0 auto;
 }
 .hero--info{
-    height: 500px;
+    height: 700px;
 }
 
 ul{
     height: 151px;
 }
-
+.hero--container{
+    height: 100%;
+    width: 100%;
+}
