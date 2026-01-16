@@ -10,7 +10,7 @@ body{
     font-family: "Poppins", sans-serif;
   font-style: normal;
    background: linear-gradient(90deg, rgb(0, 0, 0) 14%, rgb(6, 84, 210) 100%);
-    min-height: 500vh; /* Занимает всю высоту viewport (видимой области) */
+    min-height: 100vh; /* Занимает всю высоту viewport (видимой области) */
     background-repeat: no-repeat; /* Предотвращает повторение, если контент короче */
     background-size: cover;
     margin: 0;
@@ -46,7 +46,7 @@ h2{
     padding: 50px 0;
 }
 
-.hero--info{
+.hero--info{    
 
     width: 90%;
 }
